@@ -7,7 +7,8 @@ package ca.sheridancollege.week2.softwarefundamentals;
 
 /**
  * The class where we create Cards
- * @author dancye, 2019
+ * @author Khoi Anh Ngo, 2022
+ * Student ID: 991643785
  */
 public class CardDealer 
 {
@@ -15,5 +16,13 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        Card fiveHearts = new Card("Hrts", 5);
+        fiveHearts.setSuit("hearts");
+        fiveHearts.getValue();
+        
+        Card sevenJacks = new Card("Jcks", 7);
+        sevenJacks.setSuits("jacks");
+        sevenJacks.getValue();
     }
 }
