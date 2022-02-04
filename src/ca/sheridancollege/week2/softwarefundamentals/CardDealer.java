@@ -19,5 +19,9 @@ public class CardDealer
         
         Card fiveHearts = new Card("Hrt", 5);
         fiveHearts.setSuit("hearts");
+        
+        Card eightDiamonds = new Card("Dmnds", 8);
+        eightDiamonds.setSuit("diamonds");
+        eightDiamonds.getValue();
     }
 }
